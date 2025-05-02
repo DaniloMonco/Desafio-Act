@@ -15,7 +15,7 @@ E logo após,
 Caso não esteja rodando o docker em linux, segue abaixo documentação para container rodando no Windows.
 https://learn.microsoft.com/en-us/aspnet/core/security/docker-compose-https?view=aspnetcore-9.0
 
-Após essa etapa finaliza, vamos executar o docker compose da seguinte forma:
+Após essa etapa finalizada, vamos executar o docker compose da seguinte forma:
 Acessar a pasta raiz do projeto via powershell, exemplo cd: `C:\github\Act-Desafio`
 e executar
 `docker compose up`
@@ -34,7 +34,7 @@ Acessar o PostgreSQL com o management de sua preferencia. O usuário para acessa
 Nenhuma tabela é necessária, pois existe uma migração no projeto FluxoCaixaBackground responsável pela criação da tabela.
 
 ### Docker Desktop
-Acessar o Docker Desktop, verificar se alguma API ou Background não esta rodando devido a falta de configurações, e iniciar o container com as configurações efetuadas.
+Acessar o Docker Desktop, verificar se alguma API ou Background não está rodando devido a falta de configurações, e iniciar o container com as configurações efetuadas.
 
 ControleLancamento.API esta localizado: https://localhost:5091/swagger/index.html
 FluxoCaixa.Api esta localizado: http://localhost:5080/swagger/index.html
