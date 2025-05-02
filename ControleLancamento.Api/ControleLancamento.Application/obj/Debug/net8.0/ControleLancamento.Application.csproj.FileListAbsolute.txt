@@ -1,0 +1,16 @@
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\bin\Debug\net8.0\ControleLancamento.Application.deps.json
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\bin\Debug\net8.0\ControleLancamento.Application.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\bin\Debug\net8.0\ControleLancamento.Application.pdb
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.csproj.AssemblyReference.cache
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.AssemblyInfoInputs.cache
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.AssemblyInfo.cs
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.csproj.CoreCompileInputs.cache
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.sourcelink.json
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\refint\ControleLancamento.Application.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ControleLancamento.Application.pdb
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\ref\ControleLancamento.Application.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\bin\Debug\net8.0\ControleLancamento.Domain.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\bin\Debug\net8.0\ControleLancamento.Domain.pdb
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Application\obj\Debug\net8.0\Controle.41CDEB98.Up2Date

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "6mYZM7pRAWIAK8kzWwLFtzxdKoGa8Z5jddZ32Rm/Hb4=",
+  "Source": "ControleLancamento.Api",
+  "BasePath": "_content/ControleLancamento.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

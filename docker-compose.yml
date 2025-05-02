@@ -1,0 +1,124 @@
+version: '3.8'
+
+services:
+
+  controlelancamento_webapi:
+    container_name: controlelancamento_webapi
+    image: ${DOCKER_REGISTRY-}controlelancamentowebapi
+    build:
+      context: .
+      dockerfile: ControleLancamento.Api/ControleLancamento.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=5090
+      - ASPNETCORE_HTTPS_PORTS=5091
+      - ConnectionStrings__MongoDB=mongodb://desafio_mongodb:27017
+      - ConnectionStrings__RabbitMq=desafio_rabbitmq
+    ports:
+      - "5090:5090"
+      - "5091:5091"
+    networks:
+      - app-network      
+    depends_on:
+      - "desafio_mongodb"
+      - "desafio_rabbitmq"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+      
+  fluxocaixa_webapi:
+    container_name: fluxocaixa_webapi
+    image: ${DOCKER_REGISTRY-}fluxocaixawebapi
+    build:
+      context: .
+      dockerfile: FluxoCaixa.Api/FluxoCaixa.Api/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=5080
+      - ASPNETCORE_HTTPS_PORTS=5081
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=ABC123teste
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/fluxocaixa-api.pfx
+      - ConnectionStrings__PostgreSql=User ID=postgres;Password=ABC123teste;Host=desafio_database;Port=5432;Database=fluxo-caixa;Connection Lifetime=0;
+      - ConnectionStrings__Redis=desafio_redis:6379
+    ports:
+      - "5080:5080"
+      - "5081:5081"
+    networks:
+      - app-network      
+    depends_on:
+      - "desafio_database"
+      - "desafio_redis"
+    volumes:
+      #- ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      #- ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro      
+      - ~/.aspnet/https:/https:ro
+
+  fluxocaixa_background:
+    container_name: fluxocaixa_background
+    image: ${DOCKER_REGISTRY-}fluxocaixabackground
+    build:
+      context: .
+      dockerfile: FluxoCaixaBackground/FluxoCaixaBackground/Dockerfile
+    environment:
+      - ConnectionStrings__PostgreSql=User ID=postgres;Password=ABC123teste;Host=desafio_database;Port=5432;Database=fluxo-caixa;Connection Lifetime=0;
+      - ConnectionStrings__RabbitMq=desafio_rabbitmq
+    networks:
+      - app-network      
+    depends_on:
+      - "desafio_database"
+      - "desafio_rabbitmq"  
+    
+  desafio_database:
+    container_name: desafio_database
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ABC123teste
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data      
+    networks:
+      - app-network      
+    restart: unless-stopped      
+      
+  desafio_rabbitmq:
+    container_name: desafio_rabbitmq
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"    
+    networks:
+      - app-network  
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq 
+
+  desafio_mongodb:
+    container_name: desafio_mongodb 
+    image: mongodb/mongodb-community-server:latest
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network      
+    volumes:
+      - mongodb_data:/var/lib/mongodb 
+      
+  desafio_redis:
+    container_name: desafio_redis 
+    image: redis:7.4.1-alpine     
+    ports:
+       - "6379:6379"
+    networks:
+      - app-network       
+    volumes:
+      - redis_data:/var/lib/redis_data 
+
+networks:
+  app-network:
+    driver: bridge
+    
+volumes:
+    postgres_data:
+    rabbitmq_data:
+    mongodb_data:
+    redis_data:

@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.application\\debitocommand\\lancardebitocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|solutionrelative:controlelancamento.application\\debitocommand\\lancardebitocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.application\\creditocommand\\lancarcreditocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|solutionrelative:controlelancamento.application\\creditocommand\\lancarcreditocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain\\model\\debito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|solutionrelative:controlelancamento.domain\\model\\debito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain\\model\\lancamentobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|solutionrelative:controlelancamento.domain\\model\\lancamentobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain\\model\\credito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|solutionrelative:controlelancamento.domain\\model\\credito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.infrastructure\\eventbus\\lancamentoefetuadopublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|solutionrelative:controlelancamento.infrastructure\\eventbus\\lancamentoefetuadopublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|solutionrelative:controlelancamento.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|solutionrelative:controlelancamento.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|solutionrelative:controlelancamento.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.infrastructure\\repository\\lancamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|solutionrelative:controlelancamento.infrastructure\\repository\\lancamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.infrastructure\\eventbus\\rabbitmqconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|solutionrelative:controlelancamento.infrastructure\\eventbus\\rabbitmqconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3749DA47-3414-4A99-9CCF-EA1D9D3B5128}|ControleLancamento.Application.Test\\ControleLancamento.Application.Test.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.application.test\\efetuarlancamentocommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3749DA47-3414-4A99-9CCF-EA1D9D3B5128}|ControleLancamento.Application.Test\\ControleLancamento.Application.Test.csproj|solutionrelative:controlelancamento.application.test\\efetuarlancamentocommandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C2C04-E5AD-47A5-A82A-E7EAC151409D}|ControleLancamento.Domain.Test\\ControleLancamento.Domain.Test.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain.test\\controlelancamento.domain.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B2C2C04-E5AD-47A5-A82A-E7EAC151409D}|ControleLancamento.Domain.Test\\ControleLancamento.Domain.Test.csproj|solutionrelative:controlelancamento.domain.test\\controlelancamento.domain.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|solutionrelative:controlelancamento.domain\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain\\repository\\ilancamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|solutionrelative:controlelancamento.domain\\repository\\ilancamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain\\model\\tipolancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|solutionrelative:controlelancamento.domain\\model\\tipolancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.domain\\events\\tipolancamentoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61CC880-54D9-4DB1-97D8-7D7960FCCD6E}|ControleLancamento.Domain\\ControleLancamento.Domain.csproj|solutionrelative:controlelancamento.domain\\events\\tipolancamentoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.application\\creditocommand\\lancarcreditocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|solutionrelative:controlelancamento.application\\creditocommand\\lancarcreditocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.application\\debitocommand\\lancardebitocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|solutionrelative:controlelancamento.application\\debitocommand\\lancardebitocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.application\\common\\efetuarlancamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F805E696-322C-4C0E-9AFB-11B2085C17D3}|ControleLancamento.Application\\ControleLancamento.Application.csproj|solutionrelative:controlelancamento.application\\common\\efetuarlancamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.api\\request\\efetuarlancamentorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0339839-DA01-4E6D-AAC9-96B4DD670D7F}|ControleLancamento.Api\\ControleLancamento.Api.csproj|solutionrelative:controlelancamento.api\\request\\efetuarlancamentorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|c:\\github\\desafio-act\\controlelancamento.api\\controlelancamento.infrastructure\\controlelancamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{422D02AA-C422-4457-BF94-95AD382A2901}|ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj|solutionrelative:controlelancamento.infrastructure\\controlelancamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LancamentoBase.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\LancamentoBase.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain\\Model\\LancamentoBase.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\LancamentoBase.cs",
+              "RelativeToolTip": "ControleLancamento.Domain\\Model\\LancamentoBase.cs",
+              "ViewState": "AgIAABUAAABAMzMzMzMiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:24:27.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LancarCreditoCommandHandler.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommandHandler.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommandHandler.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommandHandler.cs",
+              "RelativeToolTip": "ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommandHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:43:13.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LancamentoRepository.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\Repository\\LancamentoRepository.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Infrastructure\\Repository\\LancamentoRepository.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\Repository\\LancamentoRepository.cs",
+              "RelativeToolTip": "ControleLancamento.Infrastructure\\Repository\\LancamentoRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:05:50.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Api\\Program.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\Program.cs",
+              "RelativeToolTip": "ControleLancamento.Api\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:59:26.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Debito.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\Debito.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain\\Model\\Debito.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\Debito.cs",
+              "RelativeToolTip": "ControleLancamento.Domain\\Model\\Debito.cs",
+              "ViewState": "AgIAAAkAAABQmZmZmZk+wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:35:36.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LancarDebitoCommandHandler.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommandHandler.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommandHandler.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommandHandler.cs",
+              "RelativeToolTip": "ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:56:09.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LancamentoEfetuadoPublisher.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\EventBus\\LancamentoEfetuadoPublisher.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Infrastructure\\EventBus\\LancamentoEfetuadoPublisher.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\EventBus\\LancamentoEfetuadoPublisher.cs",
+              "RelativeToolTip": "ControleLancamento.Infrastructure\\EventBus\\LancamentoEfetuadoPublisher.cs",
+              "ViewState": "AgIAABMAAADAzMzMzMwcwB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T16:57:09.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "ControleLancamento.Api\\appsettings.json",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\appsettings.json",
+              "RelativeToolTip": "ControleLancamento.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T18:48:48.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "ControleLancamento.Api\\Dockerfile",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\Dockerfile",
+              "RelativeToolTip": "ControleLancamento.Api\\Dockerfile",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-01T01:11:45.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Credito.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\Credito.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain\\Model\\Credito.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\Credito.cs",
+              "RelativeToolTip": "ControleLancamento.Domain\\Model\\Credito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:34:27.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RabbitMqConnector.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\EventBus\\RabbitMqConnector.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Infrastructure\\EventBus\\RabbitMqConnector.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\EventBus\\RabbitMqConnector.cs",
+              "RelativeToolTip": "ControleLancamento.Infrastructure\\EventBus\\RabbitMqConnector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:58:19.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Repository\\IRepository.cs",
+              "RelativeToolTip": "ControleLancamento.Domain\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:32:01.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EfetuarLancamentoCommandHandlerTest.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application.Test\\EfetuarLancamentoCommandHandlerTest.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Application.Test\\EfetuarLancamentoCommandHandlerTest.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application.Test\\EfetuarLancamentoCommandHandlerTest.cs",
+              "RelativeToolTip": "ControleLancamento.Application.Test\\EfetuarLancamentoCommandHandlerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:57:40.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ControleLancamento.Domain.Test.csproj",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain.Test\\ControleLancamento.Domain.Test.csproj",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain.Test\\ControleLancamento.Domain.Test.csproj",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain.Test\\ControleLancamento.Domain.Test.csproj",
+              "RelativeToolTip": "ControleLancamento.Domain.Test\\ControleLancamento.Domain.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-27T00:51:49.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TipoLancamento.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\TipoLancamento.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain\\Model\\TipoLancamento.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Model\\TipoLancamento.cs",
+              "RelativeToolTip": "ControleLancamento.Domain\\Model\\TipoLancamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:36:25.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ILancamentoRepository.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Repository\\ILancamentoRepository.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain\\Repository\\ILancamentoRepository.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Repository\\ILancamentoRepository.cs",
+              "RelativeToolTip": "ControleLancamento.Domain\\Repository\\ILancamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:36:27.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LancarDebitoCommand.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommand.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommand.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommand.cs",
+              "RelativeToolTip": "ControleLancamento.Application\\DebitoCommand\\LancarDebitoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:57:02.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TipoLancamentoEnum.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Events\\TipoLancamentoEnum.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Domain\\Events\\TipoLancamentoEnum.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Domain\\Events\\TipoLancamentoEnum.cs",
+              "RelativeToolTip": "ControleLancamento.Domain\\Events\\TipoLancamentoEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:36:13.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LancarCreditoCommand.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommand.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommand.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommand.cs",
+              "RelativeToolTip": "ControleLancamento.Application\\CreditoCommand\\LancarCreditoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:56:59.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EfetuarLancamentoCommand.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\Common\\EfetuarLancamentoCommand.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Application\\Common\\EfetuarLancamentoCommand.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Application\\Common\\EfetuarLancamentoCommand.cs",
+              "RelativeToolTip": "ControleLancamento.Application\\Common\\EfetuarLancamentoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:56:47.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EfetuarLancamentoRequest.cs",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\Request\\EfetuarLancamentoRequest.cs",
+              "RelativeDocumentMoniker": "ControleLancamento.Api\\Request\\EfetuarLancamentoRequest.cs",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Api\\Request\\EfetuarLancamentoRequest.cs",
+              "RelativeToolTip": "ControleLancamento.Api\\Request\\EfetuarLancamentoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:57:07.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ControleLancamento.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj",
+              "ToolTip": "C:\\github\\Desafio-Act\\ControleLancamento.Api\\ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj",
+              "RelativeToolTip": "ControleLancamento.Infrastructure\\ControleLancamento.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-26T18:56:13.685Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

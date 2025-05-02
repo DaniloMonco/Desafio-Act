@@ -1,0 +1,16 @@
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.csproj.AssemblyReference.cache
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.AssemblyInfoInputs.cache
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.AssemblyInfo.cs
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.csproj.CoreCompileInputs.cache
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.sourcelink.json
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\bin\Debug\net8.0\ControleLancamento.Infrastructure.deps.json
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\bin\Debug\net8.0\ControleLancamento.Infrastructure.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\bin\Debug\net8.0\ControleLancamento.Infrastructure.pdb
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\bin\Debug\net8.0\ControleLancamento.Domain.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\bin\Debug\net8.0\ControleLancamento.Domain.pdb
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\Controle.8D9D4E40.Up2Date
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\refint\ControleLancamento.Infrastructure.dll
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ControleLancamento.Infrastructure.pdb
+C:\github\OpahITDesafio\ControleLancamento.Api\ControleLancamento.Infrastructure\obj\Debug\net8.0\ref\ControleLancamento.Infrastructure.dll
